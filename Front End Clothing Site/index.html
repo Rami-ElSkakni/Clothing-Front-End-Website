@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="nav-container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Web Project</a>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-bag"></i><span class="cartspan">0</span></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="inside-container">
+                <span class="above-text">Welcome</span>
+                Scroll through fashion...
+
+                <button class="sign-up" onclick="document.location='signup.php'"><span>Sign up</span></button>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="products">
+        <div class="container2">
+            <div class="product-items">
+                <!-- for one image -->
+                <div class="product">
+                    <div class="product-box">
+                        <div class="i-img">
+                            <img src="stock.jpg" alt="">
+                        </div>
+                        <div class="i-btns">
+                            <button class="product-btn btn-cart">add to cart <i class="fas fa-plus"
+                                    id="buy"></i></button>
+                            <button class="product-btn btn-buy">buy now<i class="fas fa-shopping-cart"
+                                    id="add"></i></button>
+
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">Casual</h2>
+                        </div>
+
+                        <span class="product-name">Classic White T-shirt</span>
+                        <p class="product-price">$20</p>
+                    </div>
+                </div>
+                <!-- end for one image -->
+
+                <!-- for one image -->
+                <div class="product">
+                    <div class="product-box">
+                        <div class="i-img">
+                            <img src="stock2.jpg" alt="">
+                        </div>
+                        <div class="i-btns">
+
+                            <button class="product-btn btn-cart">add to cart <i class="fas fa-plus"
+                                    id="buy"></i></button>
+                            <button class="product-btn btn-buy">buy now<i class="fas fa-shopping-cart"
+                                    id="add"></i></button>
+
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">Sports</h2>
+                        </div>
+
+                        <span class="product-name">Sports black and red</span>
+                        <p class="product-price">$20</p>
+                    </div>
+                </div>
+                <!-- end for one image -->
+
+
+                <!-- for one image -->
+                <div class="product">
+                    <div class="product-box">
+                        <div class="i-img">
+                            <img src="stock3.jpg" alt="">
+                        </div>
+                        <div class="i-btns">
+
+                            <button class="product-btn btn-cart">add to cart <i class="fas fa-plus"
+                                    id="buy"></i></button>
+                            <button class="product-btn btn-buy">buy now<i class="fas fa-shopping-cart"
+                                    id="add"></i></button>
+
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">Sports</h2>
+                        </div>
+
+                        <span class="product-name">Sports Yellow and Black</span>
+                        <p class="product-price">$20</p>
+                    </div>
+                </div>
+                <!-- end for one image -->
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

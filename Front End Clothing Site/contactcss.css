@@ -1,0 +1,85 @@
+.contactName{
+    color: #252525;
+    font-family: mySecondFont;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+    padding: 11px 0 11px 66px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #ffc119;
+    position: relative;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background-color: rgb(25,25,25);
+  }
+.form-contact{
+    color: white;
+}
+.ptags{
+    color: white;
+}
+.body{
+    background-color: rgb(25,25,25);
+}
+.contact-input button {
+    background: #ffc119;
+    padding: 5px 10px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffc119;
+    
+}
+
+.navbar-header  {
+    padding: 1rem;
+    margin-left: 50px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.navbar-header a {
+   color: black;
+   text-align: none;
+   list-style: none;
+   text-decoration: none;
+}
+
+.navbar-links ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+.navbar-links li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    display: block;
+    font-size: larger;
+}
+
+.navbar-links li a:hover {
+    background-color: rgba(194, 176, 176, 0.678);
+}
